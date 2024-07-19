@@ -1,0 +1,27 @@
+<div class="container">
+    <div class="row m-2 text-center">
+        <h3> My Shares Page</h3>
+    </div>
+    <div class="row m-2 text-center">
+        <div class="col-12">
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <th>Share Name</th>
+                        <th>Share Price</th>
+                        <th>Purchase Date</th>
+                        <th>Quantity</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let s of shares">
+                        <td>{{s.name | reverse }}</td>
+                        <td>{{s.price | currency:'INR' }}</td>
+                        <td>{{s.date | date}}</td>
+                        <td>{{s.quantity}}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
