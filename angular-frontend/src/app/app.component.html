@@ -1,2 +1,12 @@
-<!-- <app-tasks></app-tasks> -->
- <app-shares></app-shares>
+<div class="row m-0">
+  <div class="col-3">
+    <ul class="list-group">
+      <li class="list-group-item" [routerLink]="'tasks'">My Tasks</li>
+      <li class="list-group-item" [routerLink]="'shares'">My Shares</li>
+    </ul>
+  </div>
+  <div class="col-9">
+    <router-outlet></router-outlet>
+  </div>
+</div>
+

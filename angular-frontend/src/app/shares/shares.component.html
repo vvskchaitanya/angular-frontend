@@ -15,7 +15,7 @@
                 </thead>
                 <tbody>
                     <tr *ngFor="let s of shares">
-                        <td>{{s.name | reverse }}</td>
+                        <td>{{s.name | uppercase }}</td>
                         <td>{{s.price | currency:'INR' }}</td>
                         <td>{{s.date | date}}</td>
                         <td>{{s.quantity}}</td>
