@@ -1,6 +1,7 @@
 import { CurrencyPipe, DatePipe, NgFor, UpperCasePipe } from '@angular/common';
 import { Component } from '@angular/core';
 import { ReversePipe } from '../pipes/reverse.pipe';
+import { SharesService } from '../services/shares.service';
 
 @Component({
   selector: 'app-shares',
@@ -11,16 +12,10 @@ import { ReversePipe } from '../pipes/reverse.pipe';
 })
 export class SharesComponent {
 
-  shares = [{
-    name: "Reliance Industries",
-    price: 3170.35,
-    date: new Date(),
-    quantity: 200
-  },{
-    name: "Tata Consultancy Services",
-    price: 4310.30,
-    date: new Date(),
-    quantity: 200
-  }]
+  shares:any[] = [];
+
+  constructor(sharesService:SharesService){
+    this.shares = sharesService.shares;
+  }
 
 }

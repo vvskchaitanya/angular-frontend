@@ -1,6 +1,7 @@
 import { NgFor, NgIf } from '@angular/common';
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
+import { TasksService } from '../services/tasks.service';
 
 @Component({
   selector: 'app-tasks',
@@ -14,6 +15,10 @@ export class TasksComponent {
   task:Task = { name :"", target:""};
   
   tasks:Task[] = [];
+
+  constructor(taskService: TasksService){
+    this.tasks = taskService.tasks;
+  }
 
 
   add(){
