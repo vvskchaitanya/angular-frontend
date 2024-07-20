@@ -1,0 +1,7 @@
+<div class="container mt-4">
+    <h2 class="mb-4">Dynamic Class Binding using ngClass</h2>
+    <p [ngClass]="{'highlight': isHighlighted, 'normal': !isHighlighted}" class="p-3 border">
+        This paragraph's style changes based on the condition.
+    </p>
+    <button (click)="toggleHighlight()" class="btn btn-primary mt-2">Toggle Highlight</button>
+</div>

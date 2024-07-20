@@ -1,0 +1,8 @@
+<div class="container mt-4">
+    <h2 class="mb-4">Conditional Rendering using *ngIf</h2>
+    <p *ngIf="isVisible; else elseBlock" class="alert alert-success">The content is visible!</p>
+    <ng-template #elseBlock>
+        <p class="alert alert-danger">The content is hidden.</p>
+    </ng-template>
+    <button (click)="toggleVisibility()" class="btn btn-primary mt-2">Toggle Visibility</button>
+</div>

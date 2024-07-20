@@ -1,0 +1,13 @@
+.highlight {
+    background-color: #ffc107;
+    /* Yellow background */
+    color: #212529;
+    /* Dark text color */
+}
+
+.normal {
+    background-color: #f8f9fa;
+    /* Light background */
+    color: #212529;
+    /* Dark text color */
+}
