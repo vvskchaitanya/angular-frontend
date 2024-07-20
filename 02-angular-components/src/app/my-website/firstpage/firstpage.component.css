@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  .content {
+    display: flex;
+    flex: 1;
+  }
+  
+  app-side-nav {
+    flex: 0 0 200px;
+  }
+  
+  app-main {
+    flex: 1;
+  }
+  
+  app-side-adv {
+    flex: 0 0 200px;
+  }
+  

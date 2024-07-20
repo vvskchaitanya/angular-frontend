@@ -1,0 +1,29 @@
+.side-adv {
+    background-color: #f8f9fa;
+    border-left: 1px solid #dee2e6;
+  }
+  
+  .card {
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-img-top {
+    border-radius: 8px 8px 0 0;
+  }
+  
+  .card-body {
+    padding: 1.25rem;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+  }
+  

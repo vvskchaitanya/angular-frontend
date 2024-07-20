@@ -1,0 +1,20 @@
+.side-nav {
+    background-color: #f8f9fa;
+    border-right: 1px solid #dee2e6;
+    height: 100vh;
+  }
+  
+  .list-group-item {
+    border: none;
+    border-radius: 0;
+  }
+  
+  .list-group-item.active {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .list-group-item-action:hover {
+    background-color: #e9ecef;
+  }
+  
