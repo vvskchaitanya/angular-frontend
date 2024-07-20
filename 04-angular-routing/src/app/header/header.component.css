@@ -1,0 +1,10 @@
+.navbar {
+    margin-bottom: 20px;
+}
+.navbar-custom {
+    background-color: #007bff;
+    color: white;
+    padding: 20px;
+    font-size: 30px;
+    font-weight: bold;
+}
