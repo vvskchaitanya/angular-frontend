@@ -40,3 +40,6 @@ npm start
 ```
 - Great Job! We have successfully created our web application code base using Angular Framework.
 
+## Direct Access Link
+- https://vvskchaitanya.github.io/angular-frontend/
+
