@@ -10,7 +10,7 @@ import { FormsModule, NgModel } from '@angular/forms';
 })
 export class HelloComponent {
 
-  message: string = 'Hello, Angular Component!';
+  message: string = 'Hello, Welcome to Angular App!';
   name: string = '';
 
   updateMessage() {
